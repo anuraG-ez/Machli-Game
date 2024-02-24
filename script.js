@@ -8,7 +8,7 @@ let count = 0;
 
 startBtn.addEventListener("click",()=>{
     count = 1;
-    para[0].innerText = `1 Machli🐠`;
+    para[0].innerText = `1 Machli🐠 - x (1)`;
     para[1].innerText = `pani me gayi🌊 - x (1)`;
     para[2].innerText = `chapak💦 - x (1)`;
 })
@@ -23,7 +23,7 @@ nextBtn.addEventListener("click",()=>{
 })
 
 const game = (count)=>{
-     para[0].innerText = `${count} Machli🐠`;
+     para[0].innerText = `${count} Machli🐠 - x (${count})`;
      para[1].innerText = `pani me gayi🌊 - x (${count})`;
      para[2].innerText = `chapak💦 - x (${count})`;
 }
